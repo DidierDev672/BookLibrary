@@ -1,0 +1,168 @@
+*{
+  font-style: italic;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.title-login{
+  font-size: 30px;
+  color: #001219;
+  font-weight: 400;
+}
+
+.btn-edit{
+  width: 7rem;
+  background-color: #48cae4;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #00b4d8;
+  box-shadow: 2px 2px 2px #0096c7;
+  padding: 10px;
+}
+
+.btn-delete{
+  width: 7rem;
+  background-color: #ef476f;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #e63946;
+  box-shadow: 2px 2px 2px #d62828;
+  padding: 10px;
+}
+
+.btn-login{
+   background-color: #00b4d8;
+   color: #ffffff;
+   border-radius: 5px;
+   border: 1px solid #00afb9;
+   box-shadow: 2px 2px 2px #00b4d8;
+   padding: 7px;
+}
+
+.card-book{
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #e9ecef;
+  box-shadow: 2px 2px 2px #dee2e6;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card-box{
+  width: 50rem;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #f8f9fa;
+  box-shadow: 2px 2px 2px #e9ecef;
+}
+
+@media screen and (max-width: 640px){
+  .card-box{
+    width: auto;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.grid-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.flex-book{
+  display: flex;
+  flex-direction: row;
+  order: 3;
+  flex-grow: 3;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.flex-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.list-li{
+  list-style: none;
+}
+
+.text-link{
+  text-decoration: none;
+  color: #212529;
+}
+
+.dropdown-box{
+  margin-top: -7px;
+  color: #212529;
+}
+
+
+.navbar-box{
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px  #adb5bd;
+}
+
+.me-auto{
+  margin-top: 14px;
+  gap: 15px;
+}
+
+
+.input-text{
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #2b2d42;
+  padding: 5px;
+}
+
+.group-box{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: red;
+}
