@@ -1,0 +1,76 @@
+@import 'vars';
+
+.box-card-sign-in{
+    background-color: var(--color-box-card);
+    border-radius: var(--md-border-card);
+    border: 2px solid var(---md-border-card);
+    box-shadow: 3px 3px 3px var(--box-box);
+    padding: 10px;
+}
+
+.card-box-sign-in:hover{
+    box-shadow: 5px 5px 5px var(--box-box);
+}
+
+.box-card-sign-in{
+    width: 25rem;
+    margin: auto;
+}
+
+.form-sign-in{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item-title-sign-in{
+    display: flex;
+    place-content: center;
+}
+
+.title-sign-in{
+    color: var(--black);
+    font-size: var(--font-size-title);
+    font-style: normal;
+    font-weight: var(--font-weight-title);
+    line-height: var(--font-line-height-title);
+}
+
+.item-form-sign-in{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.text-input{
+    background-color: #fdfffc;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.text-input:hover{
+    box-shadow: 4px 4px 4px #ccc;
+}
+
+.btn-sign-in{
+    width: 7rem;
+    background-color: var(--background-btn-primary);
+    border-radius: 5px;
+    border:none;
+    padding: 7px;
+}
+
+.btn-sign-in{
+    font-style: normal;
+    font-weight: 900;
+}
+
+.btn-sign-in{
+    margin: auto;
+    text-align: center;
+}
